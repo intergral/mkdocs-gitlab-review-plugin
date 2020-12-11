@@ -1,7 +1,17 @@
-image: python:latest
 
-run:
+
+test:
+  except:
+    - tags
+  image: registry.gitlab.com/intergral/docker/build-images/python:pybuild_3_protoc
+  script:
+    - echo "todo"
+
+publish:
+  only:
+    - tags
+  image: registry.gitlab.com/intergral/docker/build-images/python:pybuild_3_protoc
   script:
     - pip install twine
     - python setup.py sdist bdist_wheel
-    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+    - python -m twine upload dist/*
