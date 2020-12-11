@@ -1,9 +1,3 @@
-# --------------------------------------------
-# Setup file for the package
-#
-# Laurent Franceschetti (c) 2018-2020
-# --------------------------------------------
-
 import os
 
 from setuptools import setup, find_packages
@@ -28,7 +22,7 @@ setup(
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',
     keywords='mkdocs python markdown gitlab',
-    url='',
+    url='https://github.com/intergral/mkdocs-gitlab-review-plugin/',
     author='Ben Donnelly',
     author_email='support@nerd.vision',
     license='Apache 2.0',
