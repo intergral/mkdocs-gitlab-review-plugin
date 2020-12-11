@@ -8,7 +8,7 @@ import os
 
 from setuptools import setup, find_packages
 
-VERSION_NUMBER = os.environ.get('CI_', '0.0.1')
+VERSION_NUMBER = os.environ.get('CI_COMMIT_TAG', '0.0.1')
 
 
 def read_file(fname):
