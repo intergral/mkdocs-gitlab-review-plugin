@@ -1,4 +1,4 @@
-# mkdocs-redirects
+# mkdocs-gitlab-review-plugin
 
 Plugin for [`mkdocs`](https://www.mkdocs.org/) to
 use [GitLab Visual Review Apps](https://docs.gitlab.com/ee/ci/review_apps/#visual-reviews)
