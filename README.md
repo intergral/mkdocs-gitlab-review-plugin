@@ -37,4 +37,4 @@ There are a few configuration options available:
 ## Contributing
 
 - Pull Requests are welcome.
-- File bugs and suggestions in the [GitHub Issues tracker]().
+- File bugs and suggestions in the [GitHub Issues tracker](https://github.com/intergral/mkdocs-gitlab-review-plugin/issues).
