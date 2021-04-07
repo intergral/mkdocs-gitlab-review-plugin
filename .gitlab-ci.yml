@@ -12,6 +12,7 @@ publish:
     - tags
   image: registry.gitlab.com/intergral/docker/build-images/python:pybuild_3_protoc
   script:
+    - pip install --upgrade pip
     - pip install twine
     - python setup.py sdist bdist_wheel
     - python -m twine upload dist/*
