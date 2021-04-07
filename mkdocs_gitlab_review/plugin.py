@@ -54,7 +54,7 @@ class GitLabPlugin(BasePlugin):
 
     def require_auth(self):
         if self.config.get('auth'):
-            return "data-require-auth='true'"
+            return "data-require-auth='true' "
         return ''
 
     def gitlab_url(self):
