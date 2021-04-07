@@ -1,3 +1,5 @@
+![PyPI](https://img.shields.io/pypi/v/mkdocs-gitlab-review-plugin)
+
 # mkdocs-gitlab-review-plugin
 
 Plugin for [`mkdocs`](https://www.mkdocs.org/) to
