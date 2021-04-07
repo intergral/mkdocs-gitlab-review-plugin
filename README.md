@@ -1,4 +1,4 @@
-![PyPI](https://img.shields.io/pypi/v/mkdocs-gitlab-review-plugin)
+[![PyPI](https://img.shields.io/pypi/v/mkdocs-gitlab-review-plugin)](https://pypi.org/project/mkdocs-gitlab-review-plugin/)
 
 # mkdocs-gitlab-review-plugin
 
